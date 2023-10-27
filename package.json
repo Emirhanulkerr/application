@@ -1,0 +1,26 @@
+{
+  "filters": {
+    "main.uploaded_variation": ["filter1", "filter2", "filter3"],
+    "main.existing_variation": ["filter4", "filter5", "filter6"],
+    "main.symbol": ["filter7", "filter8", "filter9"],
+    "main.af_vcf": [0.1, 0.2],
+    "main.dp": [50, 100],
+    "details2.dann_score": [1.5, 2.0],
+    "links.mondo": "free_form_filter_value",
+    "links.pheno pubmed": "free_form_filter_value",
+    "details2.provean": "free_form_filter_value"
+  },
+  "ordering": [
+    {"main.uploaded_variation": "ASC"},
+    {"main.existing_variation": "DESC"},
+    {"main.symbol": "ASC"},
+    {"main.af_vcf": "DESC"},
+    {"main.dp": "ASC"},
+    {"details2.dann_score": "DESC"},
+    {"links.mondo": "ASC"},
+    {"links.pheno pubmed": "DESC"},
+    {"details2.provean": "ASC"}
+  ],
+  "page": 2,
+  "page_size": 5
+}
